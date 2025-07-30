@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Andrew Samaiev",
+    "email": "andreysamaev@gmail.com",
+    "password": "1",
+    "role": "admin",
+    "country": "Greece"
+  },
+  {
+    "id": 2,
+    "name": "Maria Papakonstantinou",
+    "email": "maria@example.com",
+    "password": "maria123",
+    "role": "user",
+    "country": "United States"
+  },
+  {
+    "id": 3,
+    "name": "Giorgos Karagiannis",
+    "email": "giorgos@example.com",
+    "password": "giorgos123",
+    "role": "admin",
+    "country": "Italy"
+  },
+  {
+    "id": 4,
+    "name": "Eleni Nikolaou",
+    "email": "eleni@example.com",
+    "password": "eleni123",
+    "role": "user",
+    "country": "Spain"
+  },
+  {
+    "id": 5,
+    "name": "Nikos Dimitriou",
+    "email": "nikos@example.com",
+    "password": "nikos123",
+    "role": "user",
+    "country": "Cyprus"
+  },
+  {
+    "id": 6,
+    "name": "Katerina Anastasiou",
+    "email": "katerina@example.com",
+    "password": "katerina123",
+    "role": "admin",
+    "country": "Ukraine"
+  },
+  {
+    "id": 7,
+    "name": "Thanasis Georgiou",
+    "email": "thanasis@example.com",
+    "password": "thanasis123",
+    "role": "user",
+    "country": "Italy"
+  },
+  {
+    "id": 8,
+    "name": "Sofia Chatzi",
+    "email": "sofia@example.com",
+    "password": "sofia123",
+    "role": "user",
+    "country": "Spain"
+  },
+  {
+    "id": 9,
+    "name": "Antonis Triantafyllopoulos",
+    "email": "antonis@example.com",
+    "password": "antonis123",
+    "role": "user",
+    "country": "Italy"
+  },
+  {
+    "id": 10,
+    "name": "Ioanna Makri",
+    "email": "ioanna@example.com",
+    "password": "ioanna123",
+    "role": "admin",
+    "country": "Greece"
+  },
+  {
+    "id": 11,
+    "name": "Spyros Panagiotopoulos",
+    "email": "spyros@example.com",
+    "password": "spyros123",
+    "role": "user",
+    "country": "Ukraine"
+  },
+  {
+    "id": 12,
+    "name": "Anastasia Stathopoulou",
+    "email": "anastasia@example.com",
+    "password": "anastasia123",
+    "role": "user",
+    "country": "United States"
+  },
+  {
+    "id": 13,
+    "name": "Dimitris Konstantinou",
+    "email": "dimitris@example.com",
+    "password": "dimitris123",
+    "role": "admin",
+    "country": "Spain"
+  },
+  {
+    "id": 14,
+    "name": "Christina Foka",
+    "email": "christina@example.com",
+    "password": "christina123",
+    "role": "user",
+    "country": "Ireland"
+  },
+  {
+    "id": 15,
+    "name": "Panagiotis Mitropoulos",
+    "email": "panagiotis@example.com",
+    "password": "panagiotis123",
+    "role": "user",
+    "country": "Great Britain"
+  },
+  {
+    "id": 16,
+    "name": "Athina Lampraki",
+    "email": "athina@example.com",
+    "password": "athina123",
+    "role": "user",
+    "country": "France"
+  },
+  {
+    "id": 17,
+    "name": "Kostas Zacharias",
+    "email": "kostas@example.com",
+    "password": "kostas123",
+    "role": "admin",
+    "country": "Greece"
+  },
+  {
+    "id": 18,
+    "name": "Ifigeneia Katsouli",
+    "email": "ifigenia@example.com",
+    "password": "ifigenia123",
+    "role": "user",
+    "country": "Greece"
+  },
+  {
+    "id": 19,
+    "name": "Michalis Roumbis",
+    "email": "michalis@example.com",
+    "password": "michalis123",
+    "role": "user",
+    "country": "Greece"
+  },
+  {
+    "id": 20,
+    "name": "Zoi Papageorgiou",
+    "email": "zoi@example.com",
+    "password": "zoi123",
+    "role": "admin",
+    "country": "Greece"
+  }
+]
