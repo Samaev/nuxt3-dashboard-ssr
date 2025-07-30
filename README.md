@@ -4,6 +4,14 @@ A fully functional **SSR Dashboard** built with **Nuxt 3**, using **Pinia** for 
 This project simulates user authentication and protected routing using a static JSON user list and supports role-based access control.
 
 ---
+## 🎁 Credentials for easy testing
+```shell
+andreysamaev@gmail.com
+```
+password 
+```shell
+1
+```
 
 ## 🚀 Features Implemented
 
