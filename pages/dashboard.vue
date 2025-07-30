@@ -32,9 +32,6 @@ definePageMeta({
 })
 import { useAnimatedCounter } from '~/composables/useAnimatedCounter'
 
-
-
-
 const { data, pending: loading } = await useFetch<User[]>('/api/users')
 
 const total = computed(() => data.value?.length ?? 0)

@@ -77,7 +77,7 @@ const handleLogin = async () => {
   if (fetchError.value) throw new Error(fetchError.value.statusMessage)
   if (!data.value) throw new Error('Invalid response')
 
-  auth.setUser(data.value) // функция setUser — сохранить в стор user
+  auth.setUser(data.value)
   await navigateTo('/dashboard')
 
  } catch (err: any) {

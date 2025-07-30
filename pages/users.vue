@@ -2,7 +2,6 @@
  <div class="max-w-6xl mx-auto px-4 py-10">
   <h1 class="text-2xl font-bold text-gray-800 dark:text-white mb-6">User Management</h1>
 
-  <!-- Filters -->
   <div class="flex flex-col md:flex-row gap-4 mb-6">
    <input
      v-model="search"
@@ -17,9 +16,7 @@
    </select>
   </div>
 
-  <!-- Table -->
   <div class="overflow-x-auto">
-   <!-- Card Grid -->
    <div class="grid gap-6 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4">
     <div
       v-for="user in paginatedUsers"
@@ -52,7 +49,6 @@
 
   </div>
 
-  <!-- Pagination -->
   <div class="mt-6 flex justify-between items-center">
    <button
      class="px-4 py-2 bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 rounded"
@@ -86,12 +82,10 @@ const selectedCountry = ref('')
 const page = ref(1)
 const perPage = 10
 
-// Get unique list of countries
 const countries = computed(() => {
  return [...new Set(allUsers.value?.map(u => u.country))].sort()
 })
 
-// Apply filters
 const filteredUsers = computed(() => {
  return allUsers.value
    ?.filter(user => {
@@ -107,14 +101,12 @@ const filteredUsers = computed(() => {
    }) || []
 })
 
-// Pagination
 const totalPages = computed(() => Math.ceil(filteredUsers.value.length / perPage))
 const paginatedUsers = computed(() => {
  const start = (page.value - 1) * perPage
  return filteredUsers.value.slice(start, start + perPage)
 })
 
-// Reset page when filters change
 watch([search, selectedCountry], () => {
  page.value = 1
 })
