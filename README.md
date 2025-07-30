@@ -126,7 +126,7 @@ npm run dev
 
 ## 🔗 Author
 
-Andrey Samaev  
+Andrey Samaiev  
 Frontend Engineer | Vue, Nuxt, SSR, TypeScript  
 Location: Greece (Remote)  
 Email: andreysamaev@gmail.com
