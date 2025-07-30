@@ -7,11 +7,24 @@
     "dev": "nuxt dev --open",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "test": "vitest"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "@vueform/multiselect": "^2.6.11",
     "nuxt": "^4.0.1",
+    "pinia-plugin-persistedstate": "^4.4.1",
+    "sweetalert2": "^11.22.2",
     "vue": "^3.5.18",
     "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@pinia/nuxt": "^0.11.2",
+    "@vitest/ui": "^3.2.4",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11",
+    "vitest": "^3.2.4"
   }
 }
