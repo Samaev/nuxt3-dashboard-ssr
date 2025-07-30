@@ -1,4 +1,3 @@
-// stores/auth.ts
 import { defineStore } from 'pinia'
 import type {User} from "../types/User";
 
